@@ -152,9 +152,3 @@ set WEB_BASE_URL=https://staging.example.com/app/#
 - 接口层期望（HTTP + code）已在 Excel 备好，可扩展 API 用例。
 - 可扩展：GitHub Actions（Playwright 缓存 + 定时 E2E）、Allure 报告、用例标签化回归集。
 
-## 上传 GitHub 检查清单
-
-- [x] 已删除运行产物（`logs/ reports/ __pycache__ .pytest_cache`、`*.bak.xlsx`），`.gitignore` 已覆盖
-- [x] 已确认为本地演示配置（`base_url` 指向 localhost，无真实账号/密钥）
-- [x] 提交前确认本地工具目录（`.claude/`）与 `.env` 已被忽略
-- [ ] 上传命令：`git init && git add . && git commit -m "feat: Mall H5 自动化测试框架（pytest+Playwright+PO+Excel 数据驱动）" && git remote add origin <repo> && git push -u origin main`
