@@ -1,0 +1,18 @@
+web:
+  base_url: "http://localhost/app/#"
+  timeout_ms: 10000
+  headless: true
+
+api:
+  base_url: "https://jsonplaceholder.typicode.com"
+  timeout_s: 10
+
+app:
+  appium_server: "http://127.0.0.1:4723"
+  caps:
+    platformName: "Android"
+    automationName: "UiAutomator2"
+    deviceName: "emulator-5554"
+    appPackage: "com.example"
+    appActivity: ".MainActivity"
+    noReset: true

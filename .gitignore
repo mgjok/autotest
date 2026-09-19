@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# 本地工具 / IDE
+.claude/
+.idea/
+.vscode/
+
+# 运行产物（日志 / 报告 / 失败截图）
+logs/
+reports/
+
+# 数据备份与密钥
+*.bak.xlsx
+.env

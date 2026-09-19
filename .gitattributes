@@ -1,0 +1,7 @@
+# 统一换行符，避免 Windows 提交后全文件 diff
+* text=auto eol=lf
+
+# 二进制资源
+*.xlsx binary
+*.png binary
+*.pdf binary
